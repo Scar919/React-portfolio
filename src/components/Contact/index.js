@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function Contact() {
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -58,7 +58,7 @@ function ContactForm() {
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
-            rows="5"
+            rows="8"
             value={message}
             onChange={handleChange}
           />
@@ -74,4 +74,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Contact;
