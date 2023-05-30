@@ -81,11 +81,12 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: rgb(172, 211, 233);
 }
 
 button:hover {
   opacity: 0.8;
+  color: aliceblue;
 }
 
 main {
@@ -96,10 +97,12 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .portfolio {
-  margin: 10px auto;
+  margin: 20px auto;
+  
 }
 
 .card {
@@ -270,13 +273,14 @@ footer {
 
 .portrait {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  text-align: left;
 }
 
 .home .portrait img {
   width: 15em;
   border-radius: 50%;
+  margin-top: 5%;
+  margin-left: -50%;
 }
 
 .about {
