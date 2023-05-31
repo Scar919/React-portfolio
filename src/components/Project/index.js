@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Project = () => {
+
+
+function Project() {
   return (
     <div>
-      {/* Add your project content */}
+      <p> Projects are having trouble displaying. Thank you for your patience.  </p>
     </div>
   );
 }

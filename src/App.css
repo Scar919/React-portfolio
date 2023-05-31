@@ -57,14 +57,14 @@ header a {
 
 .Navigation {
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
-  margin-left: auto; /* Push navigation to the right */
+  justify-content: flex-end; 
+  margin-left: auto; 
 }
 
 .Navigation a {
-  color: inherit; /* Inherit the color from the parent */
-  font-style: normal; /* Reset the font style */
-  position: relative; /* Create a relative positioning context */
+  color: inherit; 
+  font-style: normal; 
+  position: relative; 
 }
 
 .Navigation a:hover {
@@ -100,7 +100,7 @@ main {
   margin-top: 50px;
 }
 
-.portfolio {
+.Project {
   margin: 20px auto;
   
 }
@@ -153,11 +153,6 @@ textarea {
 
 .flex-end {
   justify-content: flex-end;
-}
-
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
 }
 
 .mx-2 {
@@ -283,8 +278,3 @@ footer {
   margin-left: -50%;
 }
 
-.about {
-  text-align: center;
-  margin: 10px 20px;
-  padding: 5rem;
-}
