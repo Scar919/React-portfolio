@@ -4,6 +4,7 @@
 JavaScript | CSS | HTML| Node.js | React|
 
 [!](./src/assets/portfolio-examp.png)
+https://scar919.github.io/React-portfolio/
 
 ## Description
 The motivation behind this project was to build portfolio to showcase all my skills and my past projects. I wanted to have a place that employeers could easily access my previous work and reach out to me if needed.
